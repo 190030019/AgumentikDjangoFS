@@ -1,0 +1,20 @@
+{% extends 'home1/main.html' %}
+{% load static %}
+{% block content %}
+
+<br>
+<div class="d-flex justify-content-center">
+    <div class="col-md-6">
+        <div class="card text-center">
+            <div class="card-body">
+                <h5 class="card-title">
+                </h5><br>
+                <h3>Deleted Successfully</h3>
+                <a class="btn btn-success" href="{% url 'management' %}">Back</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}

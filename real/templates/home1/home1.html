@@ -1,0 +1,7 @@
+{% extends 'home1/main.html'%}
+{% load static %}
+{% block content %}
+{% for i in img %}
+<img src="images1/{{i.img_pic}}" alt="..." height="550px" width="2000px">
+{% endfor %}
+{% endblock %}
